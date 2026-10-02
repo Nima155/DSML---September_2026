@@ -144,6 +144,3 @@ To ensure CV score stability without expensive nested cross-validation, **advers
 4. J. Wainer and G. Cawley, "Nested cross-validation when selecting classifiers is overzealous for most practical applications," 2018.
 5. Z. Zajac, "Adversarial validation." FastML.
 
----
-
-💡 **Next Step:** Would you like me to build a python training script or pipeline notebook matching this structure so you can run and reproduce these CatBoost results directly?
