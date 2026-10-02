@@ -63,9 +63,9 @@ Several feature columns contain a significant number of missing values:
 
 ### Preprocessing Pipeline
 To prevent data leakage, sklearn and custom transformers are chained into pipeline sequences tailored to model types:
-* **Linear Models:** `FEAT NEW ENG` \\(\rightarrow\\) `MYTRANSFORMER` \\(\rightarrow\\) `TRANSFORMER W CAT` \\(\rightarrow\\) `SIMPLEIMPUTER` \\(\rightarrow\\) `STANDARDSCALER`.
-* **Random Forest:** `FEAT NEW ENG` \\(\rightarrow\\) `MYTRANSFORMER` \\(\rightarrow\\) `TRANSFORMER W CAT`.
-* **Boosted Trees:** `FEAT NEW ENG` \\(\rightarrow\\) `MYTRANSFORMER` \\(\rightarrow\\) `INCOME HANDLER`.
+* **Linear Models:** `FEAT NEW ENG` $\rightarrow$ `MYTRANSFORMER` $\rightarrow$ `TRANSFORMER W CAT` $\rightarrow$ `SIMPLEIMPUTER` $\rightarrow$ `STANDARDSCALER`.
+* **Random Forest:** `FEAT NEW ENG` $\rightarrow$ `MYTRANSFORMER` $\rightarrow$ `TRANSFORMER W CAT`.
+* **Boosted Trees:** `FEAT NEW ENG` $\rightarrow$ `MYTRANSFORMER` $\rightarrow$ `INCOME HANDLER`.
 
 ### Feature Engineering
 The custom `FEAT NEW ENG` module applies the following transformations:
